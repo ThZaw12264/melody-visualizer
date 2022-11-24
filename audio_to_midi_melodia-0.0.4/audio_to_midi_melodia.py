@@ -81,6 +81,7 @@ def save_midi(outfile, notes, tempo):
         onset = note[0] * (tempo/60.)
         duration = note[1] * (tempo/60.)
         # duration = 1
+        pitch = note[2]
         pitch = pitch.__int__()
         midifile.addNote(track, channel, pitch, onset, duration, volume)
 

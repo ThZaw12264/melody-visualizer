@@ -7,3 +7,4 @@ numpy==1.16.2
 scipy==1.2.1
 numba==0.42.1
 pandas==0.24.1
+llvmlite==0.32.1
